@@ -9,5 +9,5 @@ def battery_is_ok(temperature, soc):
     battery_soc= soc_beyond_limit(soc)
     if (battery_temp and battery_soc):
         battery_condition = True
-       return battery_condition
+        return battery_condition
     return battery_condition
